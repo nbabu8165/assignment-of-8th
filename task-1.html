@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading page</title>
+    <style>
+       
+        .flexcl{
+            display: flex;
+            margin-top: 30%;
+           
+            animation: entire 6s ease-in-out infinite;
+        }
+      .loading:hover{
+        height: 100px;
+        width: 4%;
+      
+      }
+        .loading{
+            padding: 10PX;
+            margin:2px;
+            height: 10px;
+            width: 1%;
+            border-style:none;
+            border-radius:50px;
+            border-color: aqua;
+            animation: smile  6s  ease-in-out infinite;
+
+        }
+        @keyframes smile {
+            0%{
+                transform: translate(0);
+                background-color: rgb(229, 239, 230);
+               
+
+            }
+            30%{
+                transform: translate(30%);
+                height: 30px;
+                background-color: aqua;
+            }
+            50%{
+                transform: translate(50%);
+                height:10px;
+            }
+            100%{
+                transform: translate(100%);
+                background-color: darkgoldenrod;
+            }
+            
+        }
+        @keyframes entire {
+            0%{
+                transform: translate(0);
+            }
+        
+            100%{
+               
+                transform: translate(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+   
+        <div class="flexcl">
+            <div class="loading">
+                L
+            </div>
+            <div class="loading">
+                O
+            </div>
+            <div class="loading">
+                A
+            </div>
+            <div class="loading">
+                D
+            </div>
+            <div class="loading">
+                I
+            </div>
+            <div class="loading">
+                N
+            </div>
+            <div class="loading">
+                G
+            </div>
+            <div class="loading">
+                .
+            </div><div class="loading">
+                .
+            </div><div class="loading">
+                .
+            </div>
+       </div>
+
+    
+</body>
+</html>
